@@ -19,7 +19,6 @@ Bu repo, Diyarbakır'ın Bismil ilçesindeki tarım arazilerinin 42 yıllık (19
 * `bismil_nem_analizi.html`: Üretilen interaktif katmanlı GEE harita çıktısı.
 * `nem_tahmini.py`: Kayarak pencere (sliding window) mimarisiyle geçmiş 3 ayın verilerini (`Lag_1`, `Lag_2`, `Lag_3`) öznitelik olarak ekleyen ve **Random Forest Regressor** modeliyle hiperparametre optimizasyonu yaparak 6 aylık zincirleme tahmin üreten script.
 * `ltsm2.py`: Verileri ölçeklendirip 3 boyutlu tensor yapısına dönüştürerek **LSTM (Long Short-Term Memory)** derin öğrenme mimarisini eğiten ve gelecek 6 ayın tahminini gerçekleştiren script.
-* `10981_b929_Staj1_Defter (2).pdf`: Staj süresince yapılan günlük teknik işlemleri ve model başarı metriklerini içeren resmi staj raporu.
 
 ---
 
@@ -34,7 +33,6 @@ This repository contains the code and documentation developed during my internsh
 * `bismil_nem_analizi.html`: Interactive layered GEE map output.
 * `nem_tahmini.py`: Script implementing sliding window lag features (`Lag_1`, `Lag_2`, `Lag_3`) to train a **Random Forest Regressor** model, perform hyperparameter tuning, and forecast 6-month chained predictions.
 * `ltsm2.py`: Script preprocessing data into 3D tensors to build and train an **LSTM (Long Short-Term Memory)** deep learning architecture for temporal moisture prediction.
-* `10981_b929_Staj1_Defter (2).pdf`: Official internship report detailing daily technical operations and model performance metrics.
 
 ---
 
